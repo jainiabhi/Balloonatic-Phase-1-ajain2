@@ -1,0 +1,88 @@
+*,html,body
+{
+ margin: 0;
+ padding: 0;
+}
+header
+{
+	background-image: url("child2.jpg");
+	height: 100vh;
+	line-height: 112px;
+	background-size: cover;
+	background-position: center;
+}
+.logo{
+	width: 140px;
+	height:auto;
+	padding: 20px 100px;
+}
+h1{
+ 
+ color: white;
+ font-size: 100px;
+ text-align: center;
+	
+}
+h2{
+	color:white;
+	text-align: center;
+	line-height: 50%;
+}
+h3{
+	color: white;
+	line-height:1.6;
+	font-size: 20px;
+	text-align: center;
+}
+p{
+	text-align: center;
+	color: white;
+	font size: 30px;
+	line-height: 1.6;
+}
+ul{
+	list-style: none;
+	float: right;
+	margin-top: 50px;
+}
+ul li
+{
+	display:inline-block;
+}
+header nav
+{
+	float: right; 
+}
+header nav ul li a
+{
+	padding-right:80px;
+	font-weight: bold;
+	color: white ;
+	text-decoration: none;
+	transition: all 0.5s;
+	background: black;
+	border: 1px solid;
+  border-color:maroon;
+  border-radius: 16px;
+  outline: 0;
+  text-align: center;
+  width: 12px;
+
+}
+header nav ul li a:hover
+{
+	text-decoration:none;
+	color:maroon;
+	font-size: 15px;
+}
+input[type=submit] {
+  padding: 0 40px;
+  height: 29px;
+  font-size: 12px;
+  color: white;
+  text-shadow: 0 1px #e3f1f1;
+  background: red;
+  border: 1px solid;
+  border-color: #b4ccce #b3c0c8 #9eb9c2;
+  border-radius: 16px;
+  outline: 0;
